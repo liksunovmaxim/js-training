@@ -46,7 +46,7 @@
 
 function isEven(n){
 	if(n >= 2){
-		var c = isEven(n - 2);
+		var c = isEven(n / 2);
 		return c;
 	} else {
 		return n;
